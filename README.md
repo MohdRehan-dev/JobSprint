@@ -1,16 +1,28 @@
-# React + Vite
+# JobSprint
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+JobSprint is a job application tracker I’m planning and building independently as a MERN portfolio project. It’s designed to help job seekers organize applications, track their status, and remember follow-ups.
 
-Currently, two official plugins are available:
+## Project Status
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Planning is complete. Implementation has not started yet.
 
-## React Compiler
+## Planned Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Sign up, log in, and manage personal applications securely
+- Add, view, edit, and delete applications
+- Track statuses: Saved, Applied, Assessment, Interview, Offer, Rejected, and Withdrawn
+- Search by company or role; filter by status, source, or date range
+- Record job links, notes, interview dates, and follow-up dates
+- View application counts and upcoming or overdue follow-ups on a dashboard
 
-## Expanding the ESLint configuration
+## Planned Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB, Mongoose
+
+## Learning Goal
+
+Build and deploy a useful, responsive MERN application independently.
+
+More details, setup instructions, and a live demo will be added as development progresses.
