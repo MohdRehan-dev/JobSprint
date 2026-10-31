@@ -2,6 +2,7 @@ import Sidebar from "./Sidebar";
 import ApplicationsHeader from "./ApplicationsHeader";
 import ApplicationList from "./ApplicationList";
 import { useState } from "react";
+import ApplicationForm from "./ApplicationForm";
 
 export default function JobSprint() {
   const [activePage, setActivePage] = useState("Applications");
@@ -38,6 +39,7 @@ export default function JobSprint() {
         {activePage === "Applications" ? (
           <>
             <ApplicationsHeader />
+            <ApplicationForm />
             <ApplicationList applications={applications} />
           </>
         ) : (
